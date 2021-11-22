@@ -28,6 +28,11 @@ print("Você digitou ", chute)
 if (numero_secreto == chute):
     print("Você acertou!")
 else:
-    print("Você errou")
+  if(chute > numero_secreto):
+    print("Você errou! O chute foi maior que o número secreto.")
+  elif(chute < numero_secreto):
+    print("Você errou! O chute foi menor que o número secreto.")
+
+print("Você errou")
 
 print("Fim do jogo!")
