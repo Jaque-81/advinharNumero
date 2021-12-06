@@ -1,8 +1,10 @@
+import random
+
 print(50 * "*")
 print("Bem vindo ao jogo de Adivinhação!")
 print(50 * "*")
 
-numero_secreto = 42
+numero_secreto = round(random.random()*100)
 total_tentativas = 3
 rodada = 1
 
