@@ -1,8 +1,9 @@
 import random
 
-print(50 * "*")
-print("Bem vindo ao jogo de Adivinhação!")
-print(50 * "*")
+def jogar():
+  print(50 * "*")
+  print("Bem vindo ao jogo de Adivinhação!")
+  print(50 * "*")
 
 numero_secreto = random.randrange(1, 21)
 total_tentativas = 0
